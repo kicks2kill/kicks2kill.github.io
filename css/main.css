@@ -1,4 +1,49 @@
 
+#about-section {
+    transition: transform 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+#about-section span {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -55px;
+    
+}
+
+#about-section:hover {
+    -webkit-transform: scale3d(1.5,1.5,1.5);
+    transform: scale3d(1.5);
+}
+
+#skills-section {
+    transition: transform 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+#skills-section span {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -62px;
+}
+
+#skills-section:hover {
+    -webkit-transform: scale3d(1.5,1.5,1.5);
+    transform: scale3d(1.5);
+}
+
+
+#projects-section {
+    transition: transform 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+#projects-section span {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+#projects-section:hover {
+    -webkit-transform: scale3d(1.5,1.5,1.5);
+    transform: scale3d(1.5);
+}
+
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
