@@ -1,4 +1,6 @@
-
+ * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
 #about-section {
     transition: transform 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
@@ -6,7 +8,7 @@
     position: absolute;
     margin-top: 50px;
     margin-left: -60px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 #about-section:hover {
@@ -22,7 +24,7 @@
     position: absolute;
     margin-top: 73px;
     margin-left: -62px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 #skills-section:hover {
@@ -39,7 +41,7 @@
     position: absolute;
     margin-top: 50px;
     margin-left: -60px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 #projects-section:hover {
     -webkit-transform: scale3d(1.5,1.5,1.5);
@@ -77,14 +79,14 @@ section * {
     text-align: center;
     justify-content: center;
     overflow-wrap: break-word;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 section {
     text-align: center;
     justify-content: center;
     overflow-wrap: break-word;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 }
 
 .skillset {
@@ -95,7 +97,6 @@ section {
 h1 {
     color: #dfdfdf;
     font-size: 32px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     text-decoration: underline;
     text-decoration-color: #FE6845;
@@ -116,7 +117,6 @@ figure img {
 
 
 figcaption {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 23px;
     text-align: center;
@@ -145,6 +145,50 @@ figcaption {
     color: #f4f3f3;
 }
 
+#main-content .two-columns-content {
+    display: flex;
+    width: 100%;
+
+}
+
+#main-content .two-columns-content h2 {
+    margin: 25px 140px;
+
+    
+}
+
+#main-content .two-columns-content p {
+    margin: 0px 10px;
+    word-wrap: break-word;
+    width: 100%;
+    color: ivory;
+
+}
 a {
     text-decoration: none;
+
+}
+
+h2 {
+    color: #dfdfdf;
+
+}
+
+.about-me {
+    margin-left: 100px;
+    width: 85%;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+hr {
+
+    margin-top: 75px;
+    border: 0 none;
+    height: .8px;
+    color: rgba(58,53,53,.7);
+    background-color: white;
+   
 }
