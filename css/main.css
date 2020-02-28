@@ -161,25 +161,31 @@ figure p {
 }
 
 
-#main-content .two-columns-content {
-    display: flex;
-    width: 100%;
+.four-columns-content .two-columns-content {
+    width: 150px;
 
 }
 
-#main-content .two-columns-content h2 {
-    margin: 20px 140px 25px;
+.four-columns-content .two-columns-content h2 {
     box-shadow: 0px 0px 4px rgba(255,255,255,.2);
-    padding: 3px 3px;
 
-    
 }
 
-#main-content .two-columns-content p {
-    margin-left: 15px;
+
+.four-columns-content .two-columns-content p {
     word-wrap: break-word;
-    width: 450px;
+    text-align:left;
+    margin-left: -80px;
+    width: 350px;
     color:rgba(255,255,255,.8);
+
+
+}
+
+.four-columns-content {
+    display: flex;
+    justify-content: space-evenly;
+
 
 }
 
