@@ -108,6 +108,7 @@ h1 {
 }
 
 
+
 figure {
     background: rgba(0,0,0,0.4);
     border-radius: 15px;
@@ -152,6 +153,7 @@ figure p {
 #main-content {
     background: #3A3535;
     color: #f4f3f3;
+    border-radius: 15px;
 }
 
 #main-content h1 {
