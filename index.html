@@ -13,13 +13,14 @@
   <body>
       <header>
         <div class="flex-container">
-            <div id="about-section"><img class="responsive" src="img/about.svg" width="75" height="75"> <span>About</span></div>
-            <div id="skills-section"><img class="responsive" src="img/person.svg"width="90" height="90">  <span>Skills</span></div>
-            <div id="projects-section"><img class="responsive" src="img/book.svg"width="75" height="75">  <span>Projects</span></div>
+            <div id="projects-section" onclick="scrollIntoViewProjects()"><img class="responsive" src="img/book.svg"width="75" height="75"> <span >Projects</span></div>
+            <div id="skills-section"  onclick="scrollIntoViewSkills()"><img class="responsive" src="img/person.svg"width="90" height="90">  <span>Skills</span></div>
+            <div id="about-section" onclick="scrollIntoViewAbout()"><img class="responsive" src="img/about.svg" width="75" height="75"> <span>About</span></div>
+           
         </div>
     </header>
         <div class="flex-container">
-            <img class="grey-box responsive" src="" alt="My professional photo?" height="350px" width="650px">
+            <img class="grey-box responsive" src="img/William_Spicer.jpg" alt="Portrait of William Spicer" height="400px" width="400px">
         </div>
         <div id="main-content">
           <section>
@@ -40,7 +41,7 @@
               <hr>
            <section>
               <h1>Skills</h1>
-              <div class="skills">
+              <div id="skills">
                   <img class="skillset responsive" src="img/adobe-xd-logo.png" width="85" height="85" alt="Adobe XD prototyping tool">
                   <img class="skillset responsive" src="img/Figma.jpg" width="85" height="85" alt= "Figma Prototyping tool">
                   <img class="skillset responsive" src="img/html.png" width="85" height="85" alt="HTML5">
@@ -51,25 +52,46 @@
       <hr>
       <section class="projects-section">
             <h1>Projects</h1>
-            <div class="projects">
+            <div id="projects">
                 <figure>
                     <a href="https://www.figma.com/file/aYIjzHso3zg4cOAMnv83ut/Playstation-Store-Prototype?node-id=0%3A1" target="_blank"><img class="current-projects responsive" src="img/playstation.png" width="175" height="175">
                     <figcaption>Playstation Prototype</figcaption></a>
+                    <span>This prototypes purpose was to visualize and solve any accessibility issues with Sony Playstations Webstore. This User Centered Design focuses on having appropriate visual cues in order to facilitate a task-orientated approach to browsing/purchasing product(s)</span>
                 </figure>
+              
                 <figure> 
                     <a href="https://www.figma.com/file/c3igXgposyHhWW7HUe4wCo/Teleflex_webservices?node-id=111%3A0" target="_blank"><img class="current-projects responsive" src="img/team.svg" width="175" height="175">
                     <figcaption>Webservices Team Dashboard</figcaption></a>
+                    <span>This prototype design offers a modern and desirable approach to a centralized location for users across multidisciplinary teams to locate server information, data and also release/version notes. </span>
                </figure>
           </div>
       </section>
       <hr>
       <section>
         <h1>About Me</h1>
-        <div class="about-me">
+        <div id="about-me">
             <p >Hey! My Name is <strong>William Spicer</strong> and I believe in putting users at the center of everything we do! Creating and shaping thoughtful, desirable and usable products is what I'm all about!</p>
         </div>
       </section>
     </div>
     <script src="js/scripts.js"></script>
+    <script>
+      function scrollIntoViewProjects() {
+        var ele = document.getElementById("projects");
+        ele.scrollIntoView({block: "start", behavior:"smooth",inline:"nearest"});
+    }
+    
+    function scrollIntoViewSkills() {
+        var ele = document.getElementById('skills');
+        ele.scrollIntoView({block: "start",behavior:"smooth",inline:"nearest"});
+    }
+
+    function scrollIntoViewAbout() {
+        var ele = document.getElementById('about-me');
+        ele.scrollIntoView({block: "start",behavior:"smooth",inline:"nearest"});
+    }
+
+
+    </script>
   </body>
 </html>
