@@ -179,16 +179,27 @@ a {
 
 h2 {
     color: #dfdfdf;
+    text-align: center;
 
 }
 
 #about-me {
     margin-left: 100px;
     width: 85%;
+    font-size: 18px;
     word-wrap: break-word;
     text-align: center;
     justify-content: center;
     padding-bottom: 15px;
+}
+#about-me h2 {
+   padding-left: 75px;
+   font-weight: 500;
+   font-size: 21px;
+   text-decoration: underline;
+   text-decoration-style: dashed;
+   text-decoration-color: #FE6845;
+   text-underline-position: under right;
 }
 
 hr {
@@ -215,7 +226,8 @@ hr {
 }
 
 .social-icons {
-    padding-left: 75px;
+    padding-left: 73px;
+    margin-top: -10px;
     margin-bottom: 0;
     list-style: none;
 
@@ -223,12 +235,12 @@ hr {
 
 .social-icons li {
     display: inline-block;
-    margin: 0px 3px;
+    margin: 0px 8px;
 }
 .social-icons a {
     background-color: #3A3535;
     color: ivory;
-    font-size: 45px;
+    font-size: 55px;
     display: inline-block;
     transition: all .2 linear;
 
