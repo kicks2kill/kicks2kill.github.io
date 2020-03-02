@@ -353,8 +353,8 @@ hr {
     
     .skillset {
         margin: 0px 4px;
-        width: 50px;
-        height: 50px;
+        width: 50px !important;
+        height: 50px !important;
     
     }
     
@@ -417,13 +417,13 @@ hr {
     
     
     .four-columns-content .two-columns-content {
-        width: 100px !important;
+        justify-content: space-evenly !important;
     
     }
     
     .four-columns-content .two-columns-content h2 {
         box-shadow: 0px 0px 4px rgba(255,255,255,.2);
-        font-size: 20px !important;
+        font-size: 18px !important;
         padding: 0px 0px !important;
     
     }
@@ -431,9 +431,9 @@ hr {
     
     .four-columns-content .two-columns-content p {
         word-wrap: break-word;
-        margin-left: 15px !important;
         text-align:left;
-        width: 100px !important;
+        font-size: 16px !important;
+        width: 85px !important;
         color:rgba(255,255,255,.8);
     
     
