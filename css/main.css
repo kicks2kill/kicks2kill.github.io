@@ -201,8 +201,6 @@ h2 {
 }
 
 #about-me {
-    margin-left: 100px;
-    width: 85%;
     font-size: 18px;
     word-wrap: break-word;
     text-align: center;
@@ -210,7 +208,7 @@ h2 {
     padding-bottom: 15px;
 }
 #about-me h2 {
-   padding-left: 75px;
+   text-align:center;
    font-weight: 500;
    font-size: 21px;
    text-decoration: underline;
@@ -240,11 +238,11 @@ hr {
 }
 
 .social-icons {
-    padding-left: 73px;
+    justify-content: center;
+    margin-right: 40px;
     margin-top: -10px;
     margin-bottom: 0;
     list-style: none;
-
 }
 
 .social-icons li {
