@@ -430,7 +430,7 @@ hr {
     
     .four-columns-content .two-columns-content p {
         word-wrap: break-word;
-        margin-left: 8px !important;
+        margin-left: 15px !important;
         text-align:left;
         width: 100px !important;
         color:rgba(255,255,255,.8);
