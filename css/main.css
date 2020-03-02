@@ -418,6 +418,7 @@ hr {
     
     .four-columns-content .two-columns-content {
         justify-content: space-evenly !important;
+        width: 85px !important;
     
     }
     
