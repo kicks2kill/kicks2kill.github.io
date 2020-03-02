@@ -417,7 +417,7 @@ hr {
     
     
     .four-columns-content .two-columns-content {
-        width: 100px;
+        width: 100px !important;
     
     }
     
