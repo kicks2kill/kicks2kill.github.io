@@ -51,3 +51,10 @@ div a {
     color: white;
     margin: 5px;
 }
+
+
+.header {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
