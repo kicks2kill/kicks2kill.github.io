@@ -18,8 +18,8 @@
         <nav>
           <h1 id="logo">logo</h1>
           <ul>
-            <li><a href="#features">Skills</a></li>
-            <li><a class="order" href="#soon">Projects</a></li>
+            <li><a href="#features" onclick="features.scrollIntoView();">Skills</a></li>
+            <li><a class="order" href="#soon" onclick="soon.scrollIntoView()">Projects</a></li>
           </ul>
         </nav>
       </div>
@@ -36,7 +36,7 @@
         </div>
       </section>
       <div class="features-container">
-        <section class="features">
+        <section id="features" class="features">
           <h2>Skills</h2>
           <div class="cards">
             <div class="card">
@@ -60,7 +60,7 @@
         </section>
         <img class="wave" src="./img/wave.png" alt="" />
       </div>
-      <section class="soon">
+      <section  id="soon" class="soon">
         <h2>Coming Soon</h2>
         <a href="https://github.com/kicks2kill/Javascript_Projects"><img src="./img/github-octocat.png" alt="" /></a>
         <img class="circle" src="./img/circle.png" alt="" />
@@ -78,6 +78,11 @@
       </footer>
     </main>
     <script>
+  
+      const soon = document.getElementById('soon');
+      const features = document.getElementById('features');
+      
+
       let card = document.querySelectorAll(".card");
       let functionRunning = false;
       $(function () {
