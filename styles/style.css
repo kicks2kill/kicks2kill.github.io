@@ -230,6 +230,7 @@ nav .order {
 .features .cards .card img {
   -o-object-fit: cover;
      object-fit: cover;
+     
 }
 
 .soon {
