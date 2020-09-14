@@ -103,7 +103,7 @@ nav #logo::after {
   left: 0;
   width: 5.5rem;
   height: 5.5rem;
-  background: #f54538;
+  background: #f0a500;
   border-radius: 50%;
   -webkit-transform: translate(-10%, -20%);
           transform: translate(-10%, -20%);
@@ -111,7 +111,7 @@ nav #logo::after {
 }
 
 nav .order {
-  background: #f54538;
+  background: #f0a500;
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
@@ -174,7 +174,7 @@ nav .order {
 .features-container .wave {
   position: absolute;
   left: 0;
-  bottom: -25%;
+  bottom: -5%;
   width: 100%;
   z-index: -1;
 }
@@ -230,7 +230,6 @@ nav .order {
 .features .cards .card img {
   -o-object-fit: cover;
      object-fit: cover;
-     
 }
 
 .soon {
@@ -256,6 +255,11 @@ nav .order {
 
 .soon h2 {
   top: 25%;
+}
+
+.skill-section {
+  width: 25%;
+  border-bottom: 4px solid #f0a500;
 }
 
 footer {
