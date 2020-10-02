@@ -103,7 +103,7 @@ nav #logo::after {
   left: 0;
   width: 5.5rem;
   height: 5.5rem;
-  background: #f54538;
+  background: #f0a500;
   border-radius: 50%;
   -webkit-transform: translate(-10%, -20%);
           transform: translate(-10%, -20%);
@@ -111,7 +111,7 @@ nav #logo::after {
 }
 
 nav .order {
-  background: #f54538;
+  background: #f0a500;
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
