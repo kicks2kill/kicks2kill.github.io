@@ -103,7 +103,7 @@ nav #logo::after {
   left: 0;
   width: 5.5rem;
   height: 5.5rem;
-  background: #f0a500;
+  background: #f54538;
   border-radius: 50%;
   -webkit-transform: translate(-10%, -20%);
           transform: translate(-10%, -20%);
@@ -111,7 +111,7 @@ nav #logo::after {
 }
 
 nav .order {
-  background: #f0a500;
+  background: #f54538;
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
@@ -174,7 +174,7 @@ nav .order {
 .features-container .wave {
   position: absolute;
   left: 0;
-  bottom: -5%;
+  bottom: -25%;
   width: 100%;
   z-index: -1;
 }
@@ -198,9 +198,6 @@ nav .order {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   color: black;
 }
 
@@ -232,6 +229,15 @@ nav .order {
      object-fit: cover;
 }
 
+.features h3 {
+  font-family: "Lobster", sans-serif;
+  font-size: 5rem;
+}
+
+.features p {
+  padding-left: 1em;
+}
+
 .soon {
   background: radial-gradient(#525252, #131313);
   min-height: 80vh;
@@ -255,11 +261,6 @@ nav .order {
 
 .soon h2 {
   top: 25%;
-}
-
-.skill-section {
-  width: 25%;
-  border-bottom: 4px solid #f0a500;
 }
 
 footer {
